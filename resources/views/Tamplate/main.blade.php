@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/logo.jpeg')}}">
     <title> @yield('title')
 
     </title>
@@ -41,6 +42,7 @@
     <!-- owl carousel js-->
     <script src="{{ asset('owl-carousel/owl.carousel.min.js')}}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/pop-up.js') }}"></script>
 </body>
 
 </html>
