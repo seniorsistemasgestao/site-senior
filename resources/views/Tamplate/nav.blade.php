@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
     <div class="container"><!--<a class="navbar-brand">Sênior Sistemas</a> -->
         <a class="navbar-brand" style="display: inline-flexbox">
-            <img src="{{asset('images/LOGO-CDR-v.svg')}}" width="160" height="160" class="d-inline-block align-top" alt="" style="align-content: center;">
+            <img src="{{asset('images/logo-removebg-preview.png')}}" width="100" height="100" class="d-inline-block align-top" alt="" style="align-content: center;">
            
         </a>
         <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"><span
