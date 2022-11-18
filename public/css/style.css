@@ -56,9 +56,18 @@ body {
 }
 
 #card-login{
-  text-align: center justify;
+ 
   margin-top: 250px;
   margin-bottom: 250px;
+  align-items: center;
+  justify-content: center;
+}
+#card-login h1{
+ text-align: center justify;
+ margin-top: 100px;
+ margin-bottom: 50px;
+}
+#card-login button{
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -238,7 +247,7 @@ body {
   }
 }
 
-.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button,#gtco-login .submit-button {
+.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button, #gtco-login .submit-button {
   background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -252,7 +261,7 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
-.gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa ,#gtco-login .submit-button .fa{
+.gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa , #gtco-login .submit-button .fa{
   background: #fff;
   border-radius: 50%;
   height: 32px;

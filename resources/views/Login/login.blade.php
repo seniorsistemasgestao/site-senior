@@ -15,14 +15,13 @@
                     <input type="text" name="email" class="form-control" placeholder="Email">
     
                     <input id="password" type="password" name="password" class="form-control" placeholder="Senha">
-                    <input type="button" id="showSenha" value="Mostrar senha" class="btn"  style="border: none;" />   
+                    <input type="button" id="showSenha" value="Mostrar senha" class="form-control"  />   
                     <button id="submit-form-login" href="#" type="submit" class="submit-button btn-constom  btn-custom link">Entrar <i
                             class="fa fa-angle-right" aria-hidden="true"></i></button>
 
                 </form>
-
                 <div id="rec-usuario">
-                    <a class="link">Esqueceu usuário ou senha?</a>
+                   <a class="link">Esqueceu usuário ou senha?</a>
                 </div>
             </div>
         </div>

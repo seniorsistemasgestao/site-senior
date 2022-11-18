@@ -14,7 +14,7 @@
                 <li class="nav-item"><a class="nav-link link" href="#contact">Contato</a></li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <a href="#" class="btn btn-outline-dark my-2 my-sm-0 mr-3 text-uppercase btn-custom">Entrar</a> <a
+                <a href="/login" class="btn btn-outline-dark my-2 my-sm-0 mr-3 text-uppercase btn-custom">Entrar</a> <a
                     href="#" class="btn btn-info my-2 my-sm-0 text-uppercase btn-custom">Criar conta
                 </a>
             </form>
