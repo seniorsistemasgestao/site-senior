@@ -9,7 +9,7 @@
                         <input type="text" name="nome" class="form-control" placeholder="Nome completo">
                         <input type="email" name="email" class="form-control" placeholder="Email">
                         <textarea class="form-control" name="mensagem" placeholder="Mensagem"></textarea>
-                        <button href="#" type="submit" class="submit-button btn-constom">Enviar <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        <button href="#" type="submit" class="submit-button btn-constom  btn-custom">Enviar <i class="fa fa-angle-right" aria-hidden="true"></i></button>
     
                     </form>
                 </div>

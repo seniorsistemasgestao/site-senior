@@ -11,4 +11,8 @@ class SeniorController extends Controller
     {
         return view('Home.home');
     }
+
+    public function login(){
+        return view('Login.login');
+    }
 }

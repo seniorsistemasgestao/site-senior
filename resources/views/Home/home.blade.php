@@ -1,7 +1,6 @@
 @extends('Tamplate.main')
 
-@section('title', 'Senior sistemas')
-
+@section('title', 'Sênior sistemas - Home')
 @section('content')
     <div class="container-fluid gtco-banner-area">
         <div class="container">
@@ -11,7 +10,7 @@
                         <span>Sênior Sistemas</span>
                          para seu negócio. </h1>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus turpis nisl. </p>
-                    <a href="#">Contate-Nos <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="#" class=" btn-custom">Contate-Nos <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-md-6">
                     <div class="card"><img class="card-img-top img-fluid" src="images/banner-img.png" alt=""></div>
@@ -63,7 +62,7 @@
                             dictum id neque.
                         </small>
                     </p>
-                    <a href="#">
+                    <a href="#" class=" btn-custom">
                         Saber mais <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -78,7 +77,7 @@
                     <p> Nunc sodales lobortis arcu, sit amet venenatis erat placerat a. Donec lacinia magna nulla, cursus
                         impediet augue egestas id. Suspendisse dolor lectus, pellentesque quis tincidunt ac, dictum id
                         neque. </p>
-                    <a href="#">Todos os serviços <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="#" class=" btn-custom">Todos os serviços <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-8">
                     <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
@@ -344,7 +343,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">
+                            <a href="#" class=" btn-custom">
                                 CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -358,7 +357,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">
+                            <a href="#" class=" btn-custom">
                                 CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -372,7 +371,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a href="#" class=" btn-custom">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +384,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a href="#" class=" btn-custom">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -398,7 +397,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a href="#" class=" btn-custom">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -411,7 +410,7 @@
                                 augue,
                                 et porta metus. Nulla mollis lobortis leet. Maecenas tincidunt, arcu sed ornare purus risus
                                 . . . </p>
-                            <a href="#">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a href="#" class=" btn-custom">CONSULTE MAIS INFORMAÇOÊS <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -419,3 +418,6 @@
         </div>
     </div>
 @endsection
+@push('javascript')
+<script src="{{ asset('js/pop-up.js') }}"></script>
+@endpush

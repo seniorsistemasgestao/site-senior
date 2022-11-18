@@ -55,6 +55,22 @@ body {
   cursor: pointer;
 }
 
+#card-login{
+  text-align: center justify;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#rec-usuario{
+  margin-top: 50px;
+  justify-self: unset;
+  justify-content: end;
+  text-align: start;
+}
+
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
@@ -91,6 +107,22 @@ body {
   -webkit-transform: rotate(-42deg) translate(-2px, 6px);
   transform: rotate(-42deg) translate(-2px, 6px);
 }
+
+.link:hover{
+  color: aqua !important;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.btn-custom:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  color: slateblue !important;
+  font-family:"Font Awesome 5 Free";
+   content: " \f058";
+   font-size:20px;
+} 
+
 #gtco-main-nav .change .bar2 {
   opacity: 0;
 }
@@ -206,7 +238,7 @@ body {
   }
 }
 
-.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
+.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button,#gtco-login .submit-button {
   background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
   background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -220,7 +252,7 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
-.gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
+.gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa ,#gtco-login .submit-button .fa{
   background: #fff;
   border-radius: 50%;
   height: 32px;

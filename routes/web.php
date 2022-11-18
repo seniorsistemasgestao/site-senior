@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(SeniorController::class)->group(function(){
      Route::get('/','home');
+     Route::get('/login','login');
 });
